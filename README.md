@@ -68,7 +68,7 @@ Registering all available locales:
 ## Selecting a locale
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de' are installed
+// Assuming that 'en-US' and 'de'are registered
 vm.$material.selectLocale('de')
 vm.$material.selectLocale('en-US')
 ```
@@ -79,25 +79,38 @@ locale could be found.
 Language tags are treated case-insensitively, and both `'-'` and `'_'` are valid subtag separators.
 
 If the requested locale is not available, a more specific locale is considered first, 
-and then a more general one:
+and then a more general one. The search is carried out in registration order: 
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de' are installed
+// Assuming that 'en-US' and 'de'are registered
 vm.$material.selectLocale('de-DE')  // -> 'de', locale set
 vm.$material.selectLocale('en')     // -> 'en-US', locale set
 vm.$material.selectLocale('en-AU')  // searches 'en-AU', then 'en' -> 'en-US', locale set
 vm.$material.selectLocale('it')     // -> undefined, locale unchanged
 ```
 
-Fallback locales can be given as additional arguments. A _more general_ locale will only be considered
-for the last argument, _more specific_ locales will be considered for any argument:
+Fallback locales can be given as additional arguments. A _more general_ locale will be considered
+only for the last argument, _more specific_ locales will be considered for any argument:
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de' are installed
+// Assuming that 'en-US' and 'de'are registered
 vm.$material.selectLocale('de-AT', 'en')              // -> 'en-US', locale set
 vm.$material.selectLocale('de-AT', 'de-CH', 'de-DE')  // -> 'de', locale set
 vm.$material.selectLocale('de-AT', 'de-CH', 'it')     // -> undefined, locale unchanged
 vm.$material.selectLocale('en', 'de')                 // -> 'en-US', locale set
+```
+
+
+## List of registered locales
+
+Object `vm.$material.locales` contains registered locales by language tag:
+
+```javascript 1.8
+{
+    de:      { tag: 'de',    /* ... Vue.material.locale properties for German     */ },
+    'en-US': { tag: 'en-US', /* ... Vue.material.locale properties for US English */ },
+    ...
+}
 ```
 
 
