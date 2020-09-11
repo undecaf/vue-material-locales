@@ -1,0 +1,302 @@
+{
+  "af": {
+    "confirm": "Goed",
+    "cancel": "Kanselleer"
+  },
+  "ar-DZ": {
+    "confirm": "موافق",
+    "cancel": "يلغي"
+  },
+  "ar-MA": {
+    "confirm": "موافق",
+    "cancel": "يلغي"
+  },
+  "ar-SA": {
+    "confirm": "موافق",
+    "cancel": "يلغي"
+  },
+  "az": {
+    "confirm": "OK",
+    "cancel": "Imtina etmək"
+  },
+  "be": {
+    "confirm": "OK",
+    "cancel": "Адмена"
+  },
+  "bg": {
+    "confirm": "OK",
+    "cancel": "Отказ"
+  },
+  "bn": {
+    "confirm": "ওকে",
+    "cancel": "বাতিল করুন"
+  },
+  "ca": {
+    "confirm": "D'acord",
+    "cancel": "Cancel·la"
+  },
+  "cs": {
+    "confirm": "OK",
+    "cancel": "Zrušit"
+  },
+  "cy": {
+    "confirm": "Iawn",
+    "cancel": "Canslo"
+  },
+  "da": {
+    "confirm": "OK",
+    "cancel": "Annuller"
+  },
+  "de": {
+    "confirm": "OK",
+    "cancel": "Abbrechen"
+  },
+  "el": {
+    "confirm": "OK",
+    "cancel": "Ακύρωση"
+  },
+  "en-AU": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "en-CA": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "en-GB": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "en-IN": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "en-NZ": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "en-US": {
+    "confirm": "OK",
+    "cancel": "Cancel"
+  },
+  "eo": {
+    "confirm": "OK",
+    "cancel": "Nuligi"
+  },
+  "es": {
+    "confirm": "Aceptar",
+    "cancel": "Cancelar"
+  },
+  "et": {
+    "confirm": "OK",
+    "cancel": "Loobu"
+  },
+  "eu": {
+    "confirm": "Ados",
+    "cancel": "Utzi"
+  },
+  "fa-IR": {
+    "confirm": "تأیید",
+    "cancel": ""
+  },
+  "fi": {
+    "confirm": "OK",
+    "cancel": "Peruuta"
+  },
+  "fr": {
+    "confirm": "OK",
+    "cancel": "Annuler"
+  },
+  "fr-CA": {
+    "confirm": "OK",
+    "cancel": "Annuler"
+  },
+  "fr-CH": {
+    "confirm": "OK",
+    "cancel": "Annuler"
+  },
+  "gd": {
+    "confirm": "Ceart ma-thà",
+    "cancel": "Sguir dheth"
+  },
+  "gl": {
+    "confirm": "Aceptar",
+    "cancel": "Cancelar"
+  },
+  "gu": {
+    "confirm": "ઠીક",
+    "cancel": "રદ્દ કરો"
+  },
+  "he": {
+    "confirm": "אישור",
+    "cancel": "לבטל"
+  },
+  "hi": {
+    "confirm": "ठीक",
+    "cancel": "रद्द करें"
+  },
+  "hr": {
+    "confirm": "U redu",
+    "cancel": "Odustani"
+  },
+  "hu": {
+    "confirm": "OK",
+    "cancel": "Mégse"
+  },
+  "hy": {
+    "confirm": "Լավ",
+    "cancel": "չեղարկել"
+  },
+  "id": {
+    "confirm": "OK",
+    "cancel": "Batal"
+  },
+  "is": {
+    "confirm": "Í lagi",
+    "cancel": "Hætta við"
+  },
+  "it": {
+    "confirm": "OK",
+    "cancel": "Annulla"
+  },
+  "ja": {
+    "confirm": "OK",
+    "cancel": "キャンセル"
+  },
+  "ka": {
+    "confirm": "OK",
+    "cancel": "გაუქმება"
+  },
+  "kk": {
+    "confirm": "OK",
+    "cancel": "Бас тарту"
+  },
+  "kn": {
+    "confirm": "ಸರಿ",
+    "cancel": "ರದ್ದು"
+  },
+  "ko": {
+    "confirm": "확인",
+    "cancel": "취소"
+  },
+  "lb": {
+    "confirm": "OK",
+    "cancel": "Ofbriechen"
+  },
+  "lt": {
+    "confirm": "Gerai",
+    "cancel": "Atšaukti"
+  },
+  "lv": {
+    "confirm": "Labi",
+    "cancel": "Atcelt"
+  },
+  "mk": {
+    "confirm": "OK",
+    "cancel": "Откажи"
+  },
+  "ms": {
+    "confirm": "OK",
+    "cancel": "Batal"
+  },
+  "mt": {
+    "confirm": "OK",
+    "cancel": "Ikkanċela"
+  },
+  "nb": {
+    "confirm": "OK",
+    "cancel": "Avbryt"
+  },
+  "nl": {
+    "confirm": "OK",
+    "cancel": "Annuleren"
+  },
+  "nl-BE": {
+    "confirm": "OK",
+    "cancel": "Annuleren"
+  },
+  "nn": {
+    "confirm": "OK",
+    "cancel": "Avbryt"
+  },
+  "pl": {
+    "confirm": "OK",
+    "cancel": "Anuluj"
+  },
+  "pt": {
+    "confirm": "OK",
+    "cancel": "Cancelar"
+  },
+  "pt-BR": {
+    "confirm": "OK",
+    "cancel": "Cancelar"
+  },
+  "ro": {
+    "confirm": "OK",
+    "cancel": "Revocare"
+  },
+  "ru": {
+    "confirm": "OK",
+    "cancel": "Отмена"
+  },
+  "sk": {
+    "confirm": "OK",
+    "cancel": "Zrušiť"
+  },
+  "sl": {
+    "confirm": "හරි",
+    "cancel": "එපා"
+  },
+  "sr": {
+    "confirm": "У реду",
+    "cancel": "Откажи"
+  },
+  "sr-Latn": {
+    "confirm": "U redu",
+    "cancel": "Storniraj"
+  },
+  "sv": {
+    "confirm": "OK",
+    "cancel": "Avbryt"
+  },
+  "ta": {
+    "confirm": "சரி",
+    "cancel": "ரத்து"
+  },
+  "te": {
+    "confirm": "సరే",
+    "cancel": "రద్దు చేయి"
+  },
+  "th": {
+    "confirm": "ตกลง",
+    "cancel": "ยกเลิก"
+  },
+  "tr": {
+    "confirm": "Tamam",
+    "cancel": "İptal"
+  },
+  "ug": {
+    "confirm": "ماقۇل",
+    "cancel": "بىكار قىلىش"
+  },
+  "uk": {
+    "confirm": "OK",
+    "cancel": "Скасувати"
+  },
+  "uz": {
+    "confirm": "Ha",
+    "cancel": "Bekor qilish"
+  },
+  "vi": {
+    "confirm": "OK",
+    "cancel": "Hủy bỏ"
+  },
+  "zh-CN": {
+    "confirm": "确定",
+    "cancel": "取消"
+  },
+  "zh-TW": {
+    "confirm": "確定",
+    "cancel": "取消"
+  }
+}
