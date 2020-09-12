@@ -68,7 +68,7 @@ Registering all available locales:
 ## Selecting a locale
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de'are registered
+// Assuming that 'en-US' and 'de' have been registered
 vm.$material.selectLocale('de')
 vm.$material.selectLocale('en-US')
 ```
@@ -82,7 +82,7 @@ If the requested locale is not available, a more specific locale is considered f
 and then a more general one. The search is carried out in registration order: 
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de'are registered
+// Assuming that 'en-US' and 'de' have been registered
 vm.$material.selectLocale('de-DE')  // -> 'de', locale set
 vm.$material.selectLocale('en')     // -> 'en-US', locale set
 vm.$material.selectLocale('en-AU')  // searches 'en-AU', then 'en' -> 'en-US', locale set
@@ -93,7 +93,7 @@ Fallback locales can be given as additional arguments. A _more general_ locale w
 only for the last argument, _more specific_ locales will be considered for any argument:
 
 ```javascript 1.8
-// Assuming that 'en-US' and 'de'are registered
+// Assuming that 'en-US' and 'de' have been registered
 vm.$material.selectLocale('de-AT', 'en')              // -> 'en-US', locale set
 vm.$material.selectLocale('de-AT', 'de-CH', 'de-DE')  // -> 'de', locale set
 vm.$material.selectLocale('de-AT', 'de-CH', 'it')     // -> undefined, locale unchanged
