@@ -14,6 +14,9 @@ i.e. day and month names, date formats and button text (all the properties that 
 All locales combined comprise about 50&nbsp;kB, ~700&nbsp;bytes/locale. Locales can be
 installed individually or all together.
 
+A simple example [is available here](https://undecaf.github.io/vue-material-locales/example/)
+([example source code](https://github.com/undecaf/vue-material-locales/blob/master/src/components/Demo.vue)).
+
 
 ## Installation as ES6 modules
 
