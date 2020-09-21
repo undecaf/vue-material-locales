@@ -1,6 +1,6 @@
 {
   "name": "@undecaf/vue-material-locales",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Locales for the Vue Material datepicker",
   "keywords": [
     "vue",

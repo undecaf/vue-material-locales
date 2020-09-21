@@ -39,22 +39,24 @@ const VueMaterialLocales = {
                 ) {
                     Vue.material.locale = locale
                     return locale.tag
-                }
-
-                if (tags.length) {
-                    // Try the next tag
-                    return Vue.material.selectLocale.apply(this, tags)
 
                 } else {
                     // Search for a less specific locale if possible
                     let subtags = normalizedTag.match(/^(.+)-(.+)$/)
                     if (subtags) {
                         normalizedTag = subtags[1]
-
                     } else {
-                        return
+                        break
                     }
                 }
+            }
+
+            if (tags.length) {
+                // Try the next tag
+                return Vue.material.selectLocale.apply(this, tags)
+
+            } else {
+                return
             }
         }
 

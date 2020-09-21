@@ -59,10 +59,9 @@ describe('Vue Material locales', () => {
     })
 
     it('selects a suitable fallback locale', () => {
-        verifyLocale('it', 'pt', 'pt')
-        verifyLocale('it', 'pt', 'es', 'pt-BR')
-        verifyLocale('it', 'de', 'pt-BR', 'de-AT')
-        verifyLocale('it', 'en-US', 'en', 'de')
+        verifyLocale('de-AT', 'de', 'en')
+        verifyLocale('it', 'de', 'de-DE')
+        verifyLocale('it', 'en-US', 'en')
     })
 
     it('does not change the current locale if an unregistered locale is requested', () => {

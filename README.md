@@ -92,15 +92,14 @@ vm.$material.selectLocale('en-AU')  // searches 'en-AU', then 'en' -> 'en-US', l
 vm.$material.selectLocale('it')     // -> undefined, locale unchanged
 ```
 
-Fallback locales can be given as additional arguments. A _more general_ locale will be considered
-only for the last argument, _more specific_ locales will be considered for any argument:
+Fallback locales can be given as additional arguments:
 
 ```javascript 1.8
 // Assuming that 'en-US' and 'de' have been registered
-vm.$material.selectLocale('de-AT', 'en')              // -> 'en-US', locale set
-vm.$material.selectLocale('de-AT', 'de-CH', 'de-DE')  // -> 'de', locale set
-vm.$material.selectLocale('de-AT', 'de-CH', 'it')     // -> undefined, locale unchanged
-vm.$material.selectLocale('en', 'de')                 // -> 'en-US', locale set
+vm.$material.selectLocale('de-AT', 'en')  // -> 'de', locale set
+vm.$material.selectLocale('it', 'de-DE')  // -> 'de', locale set
+vm.$material.selectLocale('it', 'en')     // -> 'en-US', locale set
+vm.$material.selectLocale('jp', 'it')     // -> undefined, locale unchanged
 ```
 
 
