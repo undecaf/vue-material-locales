@@ -1,6 +1,6 @@
 {
   "name": "@undecaf/vue-material-locales",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Locales for the Vue Material datepicker",
   "keywords": [
     "vue",
@@ -46,7 +46,7 @@
     "@vue/cli": "^4.4.6",
     "@vue/cli-service": "~4.4.6",
     "@vue/test-utils": "^1.0.3",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "date-fns": "^2.16.1",
